@@ -1,0 +1,97 @@
+html {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+main {
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    border: 1px solid hsl(216, 50%, 16%);
+    border-radius: 1rem;
+    width: 15.6rem;
+    padding: 1rem 1rem 1.5rem 1rem;
+    background-color: hsl(216, 50%, 16%);
+    transition: box-shadow .5s;
+    box-shadow: 10px white;
+    padding-bottom: 16px;
+}
+
+#image {
+    max-width: 100%;
+    border-radius: 0.70rem;
+}
+
+#p1 {
+    font-size: 14px;
+    color: hsl(220, 15%, 55%);
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h1 {
+    font-size: 15px;
+    color: white;
+    text-align: left;
+}
+
+.primary {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+#Eth {
+    color: hsl(178, 100%, 50%);
+    margin-right: .3rem;
+}
+#Eth::before{
+    content: url(images/icon-ethereum.svg);
+    margin-right: .3rem;
+    vertical-align: middle;
+}
+
+#time {
+    color: hsl(215, 51%, 70%);
+    margin-left: .3rem;
+}
+#time::before{
+    content: url(images/icon-clock.svg);
+    margin-right: .3rem;
+    vertical-align: middle;
+}
+hr {
+    height: 1px;
+    margin: 0;
+    border: none;
+    width: 100%;
+    background-color: hsl(215, 32%, 27%);
+}
+#USER{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+#p2{
+    color: hsl(220, 15%, 55%);
+    font-size: 12px;
+    margin: 12px;
+}
+#user{
+    color: white;
+}
+#userimg{
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 25px;
+}
